@@ -1,0 +1,206 @@
+.section {
+    width: 100%;
+    background-color: #143d66;
+    z-index: 0;
+  transform: skewY(-2deg);
+  display: flex;
+  justify-content: center;
+}
+
+.section .container {
+    transform: skewY(2deg);
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 50px;
+}
+
+.section .container .contain {
+    width: 100%;
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.section .container .contain .textContain {
+    width: 50%;
+}
+
+.section .container .contain .barreContain {
+    height: 4px;
+    width: 40px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.section .container .contain .textContain .titleContain {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.section .container .contain .textContain .subtileContain {
+    font-size: 16px;
+}
+
+.section .container .contain .textContain p {
+    font-size: 12px;
+}
+
+.section .container .contain .textContain .bigParaContain {
+    color: #00F1B0;
+    font-size: 12px;
+}
+
+.section .container .contain .textContain .count {
+    display: flex;
+    margin-bottom: 1rem;
+    max-height: 30px;
+}
+
+// .section .container .contain .textContain .count .one {
+//     background: linear-gradient(180deg, #143d66 60%, #00F1B0 60%);
+// }
+
+.section .container .contain .textContain .count p {
+    margin-left: 20px;
+    font-size: 12px;
+    margin-bottom: 0;
+    align-self: flex-end;
+}
+
+.section .container .contain .logoContainD {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.section .container .contain .logoContainD .tab {
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.section .container .contain .logoContainD .people {
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+    max-height: 200px;
+}
+
+.section .container .containMD {
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.section .container .containMD .textContainMd {
+    width: 50%;
+}
+
+.section .container .containMD .textContainMd .titleContain {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.section .container .containMD .textContainMd p {
+    font-size: 12px;
+}
+
+.section .container .containMD .logoContainMd {
+    width: 50%;
+}
+
+.section .container .containMD .logoContainMd img {
+    width: 80%;
+}
+
+.section .container .containEnd {
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.section .container .containEnd .textContainEnd {
+    width: 50%;
+}
+
+.section .container .containEnd .textContainEnd .titleContain {
+    font-weight: 600;
+    font-size: 22px;
+}
+.section .container .containEnd .textContainEnd .titleContainEnd {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.section .container .containEnd .textContainEnd p {
+    font-size: 12px;
+}
+
+.section .container .containEnd .logoContainEnd {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.section .container .containEnd .logoContainEnd img{
+    width: 100%;
+}
+
+
+.section .container .containEnd .logoContainEnd .tracking{
+    max-width: 300px;
+}
+
+@media(max-width: 800px) {
+    .section .container {
+        width: 90%;
+    }
+
+    .section .container .contain {
+        flex-direction: column;
+    }
+    .section .container .contain .textContain {
+        width: 100%;
+    }
+    .section .container .contain .logoContainD {
+        display: none;
+    }
+
+    .section .container .containMD {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .section .container .containMD .textContainMd {
+        width: 100%;
+    }
+    .section .container .containMD .textContainMd .titleContain {
+        margin-top: 20px;
+    }
+
+    .section .container .containMD .logoContainMd {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section .container .containEnd {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .section .container .containEnd .textContainEnd {
+        width: 100%;
+    }
+    .section .container .containEnd .logoContainEnd {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+}

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    background: linear-gradient(90deg, #18AD91, #13436C);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.section .container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 60px 0 40px 5px;
+    flex-direction: column;
+}
+
+.section .container .title {
+    margin-bottom: 20px;
+}
+
+.section .container .barre {
+    height: 4px;
+    width: 40px;
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 40px;
+}
+
+.section .container .containerCard {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section .container .card {
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.section .container .card .LogoExpertiseConseil {
+    display: flex;
+    justify-content: center;
+}
+
+.section .container .card .LogoExpertiseConseil .img {
+    width: 80px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.section .container .card .divBarre {
+    display: flex;
+    justify-content: center;
+}
+
+.section .container .card .divBarre .barreCard {
+    margin-top: 15px;
+    height: 1px;
+    width: 58px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.section .container .card .titleCard {
+    display: flex;
+    justify-content: center;
+    
+}
+.section .container .card .titleCard h4 {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section .container .card .paragraphe {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
+
+@media(max-width: 1200px) {
+    .section .container .card {
+        width: 260px;
+    }
+}
+

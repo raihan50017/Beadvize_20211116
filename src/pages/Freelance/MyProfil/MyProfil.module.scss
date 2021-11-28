@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    flex-direction: column;
+}
+
+.container .containAll {
+    width: 80%;
+    display: flex;
+}
+
+.container .containAll .colLeft {
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+.container .containAll .colRight {
+    width: 75%;
+}
+
+.container .notCompleted h1{
+    color: red;
+}

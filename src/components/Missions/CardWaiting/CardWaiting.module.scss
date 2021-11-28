@@ -1,0 +1,311 @@
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #04C38F;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.container .containCard {
+    width: 80%;
+    padding: 4px;
+    display: flex;
+}
+
+.container .containCard .detailsCard {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.container .containCard .detailsCard .width {
+    width: 90%;
+    padding: 1rem 0 1rem 0;
+}
+
+.container .containCard .detailsCard .width .title {
+    color: #143D66;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.container .containCard .detailsCard .width .detailsMission {
+    display: flex;
+    justify-content: space-between;
+}
+.container .containCard .detailsCard .width .detailsMission h6 {
+    margin: 0;
+    font-weight: 700;
+    color: #143D66;
+    font-size: 14px;
+}
+
+.container .containCard .detailsCard .width .detailsMission p {
+    margin: 0;
+    color: #143D66;
+    font-size: 12px;
+}
+
+.container .status {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .status button {
+    text-decoration: none;
+    border: solid 1px #fff;
+    outline: none;
+    background-color: #04C38F;
+    color: #fff;
+    width: 100px;
+    border-radius: 5px;
+}
+
+
+.container .containCardClient {
+    width: 100%;
+    padding: 4px;
+    display: flex;
+}
+
+.container .containCardClient .detailsCard {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .containCardClient .detailsCard .width {
+    width: 80%;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .containCardClient .detailsCard .width .title {
+    color: #143D66;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.container .containCardClient .detailsCard .width .detailsMission {
+    display: flex;
+    justify-content: space-between;
+}
+.container .containCardClient .detailsCard .width .detailsMission h6 {
+    margin: 0;
+    font-weight: 700;
+    color: #143D66;
+    font-size: 14px;
+}
+
+.container .containCardClient .detailsCard .width .detailsMission p {
+    margin: 0;
+    color: #143D66;
+    font-size: 12px;
+}
+
+
+.container .statusClient {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.container .statusClient .containProfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .statusClient .containProfil .imgProfil {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+.container .statusClient .containProfil .imgProfil img {
+    width: 30%;
+}
+
+.container .statusClient button {
+    text-decoration: none;
+    border: solid 1px #fff;
+    outline: none;
+    background-color: #04C38F;
+    color: #fff;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.container .barrehorizontal {
+    height: 60%;
+    background: #04C38F;
+    width: 4px;
+}
+
+// À PARTIR D'ICI C'EST POUR "EN ATTENTE DE VALIDATION"
+
+.containerBlue {
+    display: flex;
+    background-color: #143D66;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 1rem;
+}
+
+.containerBlue .containCard {
+    width: 80%;
+    padding: 4px;
+    display: flex;
+}
+
+.containerBlue .containCard .detailsCard {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.containerBlue .containCard .detailsCard:hover {
+    cursor: pointer;
+}
+
+.containerBlue .containCard .detailsCard .width {
+    width: 90%;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerBlue .containCard .detailsCard .width .title {
+    color: #143D66;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.containerBlue .containCard .detailsCard .width .detailsMission {
+    display: flex;
+    justify-content: space-between;
+}
+.containerBlue .containCard .detailsCard .width .detailsMission h6 {
+    margin: 0;
+    font-weight: 700;
+    color: #143D66;
+    font-size: 14px;
+}
+
+.containerBlue .containCard .detailsCard .width .detailsMission p {
+    margin: 0;
+    color: #143D66;
+    font-size: 12px;
+}
+
+.containerBlue .status {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.containerBlue .status p {
+    color: #fff;
+    width: 80%;
+}
+
+// À PARTIR D'ICI C'EST POUR "VALIDATION EN COURS"
+
+.containerLinear {
+    display: flex;
+    background: linear-gradient(90deg, #00FFBA, #143D66);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 1rem;
+}
+
+.containerLinear .containCard {
+    width: 80%;
+    padding: 4px;
+    display: flex;
+}
+
+.containerLinear .containCard .detailsCard {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.containerLinear .containCard .detailsCard .width {
+    width: 90%;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerLinear .containCard .detailsCard .width .title {
+    color: #143D66;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.containerLinear .containCard .detailsCard .width .detailsMission {
+    display: flex;
+    justify-content: space-between;
+}
+.containerLinear .containCard .detailsCard .width .detailsMission h6 {
+    margin: 0;
+    font-weight: 700;
+    color: #143D66;
+    font-size: 14px;
+}
+
+.containerLinear .containCard .detailsCard .width .detailsMission p {
+    margin: 0;
+    color: #143D66;
+    font-size: 12px;
+}
+
+.containerLinear .status {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.containerLinear .status p {
+    color: #fff;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.width {
+    width: 90%;
+}

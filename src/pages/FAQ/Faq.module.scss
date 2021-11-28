@@ -1,0 +1,117 @@
+.container {
+    margin-top: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container .questions {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.container .questions .title {
+    font-size: 25px;
+    color: #143D66;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.container .questions .line {
+    height: 6px;
+    width: 50px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #00FFBA, #143D66);
+}
+
+
+.container .questions .containButton {
+    width: 50%;
+    display: flex;
+    margin-top: 1rem;
+}
+.container .questions .containButton .button {
+    width: 50%;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #143D66;
+    color: #143D66;
+}
+.container .questions .containButton .buttonActive {
+    width: 50%;
+    background-color: #fff;
+    border: none;
+    border-bottom: 3px solid #143D66;
+    color: #143D66;
+    font-weight: 700;
+}
+
+.container .questions .containCard {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0 3rem 0;
+}
+
+.container .questions .containCard .card {
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.container .questions .containCard .card .containeQuestion {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .questions .containCard .card .containeQuestion h6 {
+    margin: 1rem;
+    color: #143D66;
+}
+
+.container .questions .containCard .card .containeQuestion button {
+    outline: none;
+    background-color: #fff;
+    border: none;
+    margin: 1rem;
+}
+
+
+.container .questions .containCard .card .containAnswer {
+    width: 90%;
+    display: flex;
+    margin: 1rem;
+    color: #143D66;
+}
+
+@media (max-width: 1050px) {
+    .container .questions .containCard {
+        width: 90%;
+    }
+
+    .container .questions .containCard .card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 805px) {
+    .container .questions {
+        width: 100%;
+    }
+
+    .container .questions .title {
+        text-align: center;
+    }
+    .container .questions .containCard {
+        width: 100%;
+    }
+}

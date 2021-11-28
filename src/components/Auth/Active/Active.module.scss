@@ -1,0 +1,33 @@
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.section .container {
+    width: 40%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    padding: 20px 0 20px 0;
+    margin: 75px 0 20px 0;
+}
+
+.section .container h1 {
+    text-align: center;
+    color: #143D66;
+    font-size: 20px;
+}
+
+.section .container .active {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-color: #00ffba;
+    height: 30px;
+    border-radius: 5px;
+    width: 100px;
+    margin-right: 1rem;
+    color: #143D66;
+}

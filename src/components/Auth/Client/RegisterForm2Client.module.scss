@@ -1,0 +1,237 @@
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4F0F8;
+}
+
+.section .container {
+    background-color: #fff;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    margin: 80px 0 20px 0;
+}
+
+.section .container .containAll {
+    width: 80%;
+}
+
+.section .container .containAll .title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #143D66;
+    margin-top: 20px;
+}
+
+.section .container .containAll .barre {
+    height: 4px;
+    width: 40px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #00ffba, #143d66);
+    margin-bottom: 1.5rem;
+}
+
+.section .container .containAll .inputTitre {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #143D66;
+    margin-bottom: 15px;
+}
+
+.section .container .containAll .inputTitre label {
+    font-weight: 600;
+}
+
+.section .container .containAll .inputTitre  input {
+    border: #01E3A6 solid .5px;
+    border-radius: 4px;
+    padding: 12px 20px;
+    background-color: #EAFFF9;
+    height: 40px;
+}
+
+.section .container .containAll .inputDescription {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #143D66;
+    margin-bottom: 15px;
+}
+
+.section .container .containAll .inputDescription label {
+    font-weight: 600;
+}
+
+.section .container .containAll .inputDescription  textarea {
+    height: 100px;
+    border: #143D66 solid .5px;
+    border-radius: 4px;
+    padding: 12px 20px;
+}
+
+
+.section .container .containAll .containInput {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.section .container .containAll .containInput .inputDescription {
+    width: 49%;
+}
+
+.section .container .containAll .button {
+    background-color: #00ffba;
+    border: 0;
+    width: 100px;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.errors {
+    color: red;
+}
+
+.section .container .containAll  .containButton {
+    display: flex;
+    margin: 1rem 0 .5rem 0;
+}
+.section .container .containAll  .containButton .buttonNoActive {
+    width: 50%;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #143D66;
+    color: #143D66;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+}
+
+.section .container .containAll  .containButton .buttonActive {
+    width: 50%;
+    background-color: #fff;
+    border: none;
+    border-bottom: 3px solid #143D66;
+    color: #143D66;
+    font-weight: 700;
+    text-decoration: none;
+    outline: none;    
+    text-align: center;
+}
+
+.section .container .containAll  .containButton .buttonNoActive:hover,
+.section .container .containAll  .containButton .buttonActive:hover {
+    cursor: pointer;
+}
+
+
+.section .container .containAll .inputBudget {
+    display: flex;
+    width: 100%;
+    color: #143D66;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+
+.section .container .containAll .inputBudget label {
+    font-weight: 600;
+    height: 100%;
+    margin: 0 1rem 0 0;
+}
+
+.section .container .containAll .inputBudget input {
+    width: 30%;
+    padding: 6px 10px;
+    border: #143D66 solid 0.5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+@media(max-width:1180px) {
+    .section .container {
+        width: 60%;
+    }
+}
+
+@media(max-width:985px) {
+    .section .container {
+        width: 70%;
+    }
+}
+
+
+@media(max-width: 910px) {
+    .section .container .containAll .input {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .section .container .containAll .input label {
+        width: 100%;
+        border-radius: 4px;
+    }
+    .section .container .containAll .input input {
+        width: 100%;
+        border-radius: 4px;
+    }  
+    .section .container .containAll .inputLieu {
+        flex-direction: column;
+        height: auto;
+    }
+    .section .container .containAll .inputLieu label{
+        width: 100%;
+        border-radius: 4px;
+    }
+    
+    .section .container .containAll .inputLieu div{
+        width: 100%;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        border-radius: 4px;
+    }
+
+    .section .container .containAll .inputLieu div option {
+        margin-bottom: 10px;
+    }
+
+    .section .container .containAll .inputStartProjet {
+        flex-direction: column;
+    }
+    .section .container .containAll .inputStartProjet label {
+        width: 100%;
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+
+    .section .container .containAll .inputStartProjet div {
+        width: 100%;
+        border-radius: 4px;
+    }
+}
+
+
+@media(max-width:700px) {
+    .section .container {
+        width: 80%;
+    }
+}
+
+@media(max-width:550px) {
+    .section .container {
+        width: 90%;
+    }
+}
+
+@media(max-width:300px) {
+    .section .container {
+        width: 100%;
+    }
+}
+

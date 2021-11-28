@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section  {
+    width: 100%;
+    background: #fff;
+    z-index: 0;
+    transform: skewY(-2deg);
+    display: flex;
+    justify-content: center;
+}
+
+.section .container {
+    transform: skewY(2deg);
+    margin-top: 50px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.section .container .head{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section .container .head .title {
+    color: #143d66;
+    margin-bottom: 25px;
+    width: 100%;
+    font-weight: 600;
+}
+
+.section .container .head .barre {
+    height: 4px;
+    width: 40px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #00ffba, #143d66);
+}
+
+.section .container .head .para {
+    font-weight: 600;
+    color: #143d66;
+}
+
+.section .container .head .imgPara {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.section .container .head .imgPara .img {
+    width: 15%;
+}
+
+.section .container .head .imgPara p {
+    margin-left: 30px;
+    font-size: 12px;
+    margin-bottom: 0;
+    align-self: flex-end;
+}
+
+.section .container .logo {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.section .container .logo .girl {
+    width: 60%;
+    max-height: 200px;
+}
+
+.section .container .innovation {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    border: #00F1B0 solid 7px;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.section .container .innovation  .titleInno {
+    color: #00F1B0;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+
+.section .container .innovation .blockInno {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.section .container .innovation .blockInno .barreInno { 
+    width: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.section .container .innovation .blockInno .barreInno .barre {
+    height: 90%;
+    width: 40%;
+    background-color: #00F1B0;
+}
+
+.section .container .innovation .blockInno .paraInno {
+    width: 90%; 
+}
+
+.section .container .innovation .blockInno .paraInno  p {
+    font-size: 12px;
+}
+
+.section .container .schema {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.section .container .schema .svg{
+    width: 75%;
+    position: absolute;
+    top: 7.5rem;
+}
+
+.section .container .schema .card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section .container .schema .card  .imgContain {
+    height: 107px;
+    max-width: 50%;
+    margin-bottom: 40px;
+}
+
+.select {
+    width: 50%;
+}
+
+.section .container .schema .card .titleCard {
+    color: #143d66;
+    font-weight: 600;
+}
+
+
+.section .container .schema .card .paraCard{
+    font-size: 12px;
+    color: #143d66;
+}
+
+.section .container .expert {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.section .container .expert .textExpert {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section .container .expert .textExpert h4 {
+    color: #143d66;
+    font-weight: 600;
+}
+.section .container .expert .textExpert p {
+    color: #143d66;
+    font-size: 12px;
+}
+
+.section .container .expert .logoExpert {
+    width: 40%;
+}
+.section .container .expert .logoExpert  img{
+    width: 100%;
+}
+
+@media(max-width: 800px) {
+    .section .container {
+        width: 90%;
+    }
+
+    .section .container .head{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section .container .logo {
+        display: none;
+    }
+
+    .section .container .schema {
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+    }
+
+    .section .container .schema .svg {
+        display: none;
+    }
+
+    .section .container .schema .card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .select {
+        width: 100%;
+    }
+
+    .section .container .expert {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .section .container .expert .textExpert {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .section .container .expert .logoExpert {
+        width: 100%;
+    }
+}

@@ -1,0 +1,428 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #00F1B0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.containerRegister {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.container .nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.containerRegister .nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.container .nav .burger {
+    cursor: pointer;
+    display: none;
+}
+
+.containerRegister .nav .burger {
+    cursor: pointer;
+    display: none;
+}
+
+.container .nav .img {
+    //height: 35px;
+    height: 45px;
+    padding: 0;
+}
+
+.containerRegister .nav .img {
+    height: 35px;
+    padding: 0;
+}
+
+.container .nav .imgM {
+    height: 35px;
+    display: none;
+}
+
+.containerRegister .nav .imgM {
+    height: 35px;
+    display: none;
+}
+
+.container .nav .containButton {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerRegister .nav .containButton {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .nav .containButton .left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.containerRegister .nav .containButton .left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.container .nav .containButton .right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.containerRegister .nav .containButton .right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.containerRegister .nav .containButton .right .containButtonUser {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.containerRegister .nav .containButton .right .containButtonUser button  {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background: #fff;
+    font-size: 20px;
+    color: #143D66;
+    font-weight: 600;
+}
+
+.containerRegister .nav .containButton .right .containButtonUser img {
+    margin-right: 1rem;
+}
+
+.containerRegister .nav .containButton .right .containButtonUser .divProfil {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.containerRegister .nav .containButton .right .containButtonUser .divProfil:hover {
+    cursor: pointer;
+}
+
+.containerRegister .nav .containButton .right .containButtonUser .divProfil p {
+    margin: 0;
+    color: #143D66;
+}
+
+.container .nav .containButton a {
+    text-decoration: none;
+    cursor: pointer;
+    // margin: 5px 15px 5px 0;
+    border-radius: 3.5px;
+}
+
+.containerRegister .nav .containButton a {
+    text-decoration: none;
+    cursor: pointer;
+    // margin: 5px 15px 5px 0;
+    border-radius: 3.5px;
+}
+
+.container .nav .containButtonActive {
+    position: relative;
+    top: 0;
+}
+
+.dropdown {
+    list-style: none;
+    position: absolute;
+    top: 76%;
+    right: 12%;
+    margin: 1rem 0 0 0;
+    background-color: #fff;
+    color: #143D66;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2.5;
+}
+
+
+.dropdown .buttonDropdown {
+    background-color: #fff;
+    color: #143D66;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+
+.buttonwithoutbackground  {
+    font-weight: 700;
+    color: #143D66;
+    height: 34px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //font-size: 19px;
+    font-size: 22px; //rbe
+    outline: none;
+    text-decoration: none;
+    //rbe
+    margin-top: 0.5rem;
+}
+
+.buttonwithoutbackground:hover {
+color: #143D66;
+}
+
+.containerRegister .buttonwithbackground1:hover {
+    color: #143D66;
+}
+
+.buttonwithbackground1  {
+    font-weight: 400;
+    background-color: #fff;
+    color: #143D66;
+    //font-size: 15px;
+    font-size: 16px;
+    height: 34px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.right .buttonwithbackground4 {
+    font-weight: 400;
+    background-color: #fff;
+    color: #143D66;
+    font-size: 16px;
+    height: 34px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    border: 1px #143D66 solid;
+}
+
+.buttonwithbackground1:hover {
+    color: #143D66;
+}
+
+.buttonwithbackground2  {
+    font-weight: 400;
+    background-color: #143D66;
+    font-size: 15px;
+    color: #fff;
+    height: 34px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.buttonwithbackground2:hover {
+    color: #fff;
+}
+
+.buttonwithbackground3  {
+    font-weight: 400;
+    border: #143D66 1.5px solid;
+    border-radius: 4px;
+    background-color: #00F1B0;
+    color: #143D66;
+    font-size: 16px;
+    height: 34px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+
+
+.modalBlock {
+    display: block;
+    position: fixed; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+}
+
+
+.modalContent {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.weigth {
+    font-weight: 600;
+    text-transform: capitalize; 
+}
+
+.size {
+    font-size: 15px;
+}
+
+.initial {
+    background-color: #143D66;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+    text-transform: uppercase; 
+}
+
+@media(max-width: 1298px) {
+    .container .nav {
+        width: 90%;
+    }
+}
+@media(max-width: 1160px) {
+    .container .nav {
+        width: 100%;
+    }
+    .container .nav .containButton .left {
+        width: 40%;
+    }
+    .container .nav .containButton .right {
+        width: 60%;
+    }
+}
+
+@media(max-width: 855px) {
+
+    .container .nav {
+        width: 90%;
+    }
+
+    .container .nav .burger {
+        display: block;
+    }
+
+    .container .nav .img {
+        //height: 35px;
+        height: 45px;
+        padding: 0;
+        display: none;
+    }
+    
+    .container .nav .imgM {
+
+        display: flex;
+    }
+
+    .container .nav .containButtonActive {
+        position: fixed;
+        width: 100%;
+        height: 300px;
+        background-color: #00F1B0;
+        top: 65px;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 2s;
+        transition-property: top;
+    }
+
+    .container .nav .containButton {
+        display: none;
+    }
+
+    .container .nav .containButtonActive .left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .nav .containButtonActive .right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttonwithoutbackground {
+        margin-bottom: 20px;
+    }
+    .containerRegister .buttonwithbackground1 {
+        margin: 0;
+    }
+    .buttonwithbackground1,
+    .buttonwithbackground2,
+    .buttonwithbackground3{
+        width: 185px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}

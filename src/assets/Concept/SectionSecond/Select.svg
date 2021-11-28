@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="157" height="97.332" viewBox="0 0 157 97.332">
+  <g id="Groupe_2164" data-name="Groupe 2164" transform="translate(-117 -2530.18)">
+    <g id="Groupe_2161" data-name="Groupe 2161" transform="translate(134.806 2584.451)">
+      <g id="Rectangle_1127" data-name="Rectangle 1127" transform="translate(0.195 -0.123)" fill="#01e3a6" stroke="#143d66" stroke-width="2">
+        <rect width="118" height="33" rx="7" stroke="none"/>
+        <rect x="1" y="1" width="116" height="31" rx="6" fill="none"/>
+      </g>
+      <text id="Sélectionner" transform="translate(6.195 4.877)" fill="#143d66" font-size="15" font-family="Helvetica"><tspan x="11.807" y="12">Sélectionner</tspan></text>
+    </g>
+    <text id="Sourcing_réalisé" data-name="Sourcing réalisé" transform="translate(117 2558.327)" fill="#143d66" font-size="15" font-family="Helvetica"><tspan x="24.722" y="12">Sourcing réalisé</tspan></text>
+    <path id="Icon_awesome-user-circle" data-name="Icon awesome-user-circle" d="M13.936.563A13.827,13.827,0,0,0,0,14.283,13.827,13.827,0,0,0,13.936,28a13.827,13.827,0,0,0,13.936-13.72A13.827,13.827,0,0,0,13.936.563Zm0,5.311a4.869,4.869,0,1,1-4.945,4.868A4.907,4.907,0,0,1,13.936,5.874Zm0,19.031A10.837,10.837,0,0,1,5.7,21.132a6.278,6.278,0,0,1,5.535-3.308,1.4,1.4,0,0,1,.4.061,7.546,7.546,0,0,0,2.3.382,7.518,7.518,0,0,0,2.3-.382,1.4,1.4,0,0,1,.4-.061,6.278,6.278,0,0,1,5.535,3.308A10.837,10.837,0,0,1,13.936,24.9Z" transform="translate(136.999 2530.372)" fill="#143d66"/>
+    <path id="Icon_awesome-user-circle-2" data-name="Icon awesome-user-circle" d="M13.936.563A13.827,13.827,0,0,0,0,14.283,13.827,13.827,0,0,0,13.936,28a13.827,13.827,0,0,0,13.936-13.72A13.827,13.827,0,0,0,13.936.563Zm0,5.311a4.869,4.869,0,1,1-4.945,4.868A4.907,4.907,0,0,1,13.936,5.874Zm0,19.031A10.837,10.837,0,0,1,5.7,21.132a6.278,6.278,0,0,1,5.535-3.308,1.4,1.4,0,0,1,.4.061,7.546,7.546,0,0,0,2.3.382,7.518,7.518,0,0,0,2.3-.382,1.4,1.4,0,0,1,.4-.061,6.278,6.278,0,0,1,5.535,3.308A10.837,10.837,0,0,1,13.936,24.9Z" transform="translate(178.152 2530.372)" fill="#143d66"/>
+    <path id="Icon_awesome-user-circle-3" data-name="Icon awesome-user-circle" d="M13.936.563A13.827,13.827,0,0,0,0,14.283,13.827,13.827,0,0,0,13.936,28a13.827,13.827,0,0,0,13.936-13.72A13.827,13.827,0,0,0,13.936.563Zm0,5.311a4.869,4.869,0,1,1-4.945,4.868A4.907,4.907,0,0,1,13.936,5.874Zm0,19.031A10.837,10.837,0,0,1,5.7,21.132a6.278,6.278,0,0,1,5.535-3.308,1.4,1.4,0,0,1,.4.061,7.546,7.546,0,0,0,2.3.382,7.518,7.518,0,0,0,2.3-.382,1.4,1.4,0,0,1,.4-.061,6.278,6.278,0,0,1,5.535,3.308A10.837,10.837,0,0,1,13.936,24.9Z" transform="translate(221.013 2529.617)" fill="#143d66"/>
+    <g id="Icon_feather-mouse-pointer" data-name="Icon feather-mouse-pointer" transform="translate(243.068 2606.811)">
+      <path id="Tracé_19288" data-name="Tracé 19288" d="M4.5,4.5l8,19.2,2.84-8.362L23.7,12.5Z" transform="translate(-4.5 -4.5)" fill="#fff" stroke="#143d66" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Tracé_19289" data-name="Tracé 19289" d="M19.5,19.5l6.789,6.789" transform="translate(-8.185 -8.185)" fill="#fff" stroke="#143d66" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

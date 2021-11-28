@@ -1,0 +1,165 @@
+.container {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.container .containDetails {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 1rem 0;
+}
+.container .containDetails .barre {
+    height: 5px;
+    width: 25px;
+    border-radius: 5px;
+    background: #143d66;
+    margin-bottom: 10px;
+}
+
+.container .containDetails .containImg {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1em;
+}
+
+.container .containDetails .containImg .title {
+    font-weight: 600;
+    color: #143D66;
+}
+
+.container .containDetails .containImg .title span {
+    color: red;
+}
+
+.container .containDetails .containImg p {
+    margin: 0;
+}
+
+
+.container .containDetails .nameDegree{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.container .containDetails .nameDegree .divPencil {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .containDetails .nameDegree .divPencil:hover {
+   cursor: pointer;
+}
+
+.container .containDetails .nameDegree p {
+    color: #143D66;
+    margin: 0;
+}
+
+.weigth {
+    font-weight: 600;
+}
+
+.container .containDetails .input {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.container .containDetails .input label{
+    width: 15%;
+    color: #143d66;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+}
+.container .containDetails .input input{
+    width: 85%;
+    padding: 12px 20px;
+    border: #143D66 solid 0.5px;
+    border-radius: 4px;
+    outline: none;
+}
+.container .containDetails .date {
+    display: flex;
+    width: 100%;
+    margin: 15px 0 15px 0;
+}
+
+.container .containDetails .date label {
+    width: 16%;
+    color: #143d66;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+}
+
+.container .containDetails .date input {
+    width: 35%;
+    border: #143D66 solid 0.5px;
+    border-radius: 4px;
+    margin-right: 15px;
+    outline: none;
+    padding: 6px 20px;
+}
+
+.container .containDetails .containButton {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0 2rem 0;
+}
+
+.container .containDetails .containButton .button {
+    outline: none;
+    background-color: #00ffba;
+    color: #143D66;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+.container .containDetails .containButton .button2 {
+    outline: none;
+    background-color: #143D66;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.addDegree {
+    outline: none;
+    background-color: #143D66;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 30px;
+    margin: 0 0 1rem 0;
+}
+
+.addCertif {
+    outline: none;
+    background-color: #143D66;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    margin: 0 0 1rem 0;
+}

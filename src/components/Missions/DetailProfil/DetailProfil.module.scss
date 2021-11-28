@@ -1,0 +1,86 @@
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3D3D3;
+    border-radius: 10px;
+    padding: 0.6rem;
+}
+
+.container .containAll {
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.container .containAll .details {
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.container .containAll .details .img {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    margin-right: 3em;
+}
+
+.container .containAll .details .img img {
+    height: 100%;
+}
+
+.container .containAll .details .detailConsultant {
+    width: 30%;
+}
+
+.container .containAll .details .detailConsultant .button {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+    color: #143d66;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.container .containAll .details .detailConsultant .button span {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.container .containAll .details .detailConsultant .spaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .containAll .details .detailConsultant .spaceBetween h6 {
+    color: #143d66;
+    font-weight: 600;
+}
+
+.container .containAll .details .detailConsultant .spaceBetween p {
+    color: #143d66;
+    margin: 0;
+}
+
+.container .containAll .detailMission {
+    margin: 2rem 0 1rem 1rem;
+    width: 90%;
+}
+
+.container .containAll .detailMission h6 {
+    color: #143D66;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.container .containAll .detailMission p {
+    color: #143D66;
+
+}

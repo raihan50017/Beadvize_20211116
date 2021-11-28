@@ -1,0 +1,25 @@
+.container {
+    margin: 80px 0 150px 0;
+    background-color: #E4F0F8;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .img {
+    display: flex;
+    justify-content: center;
+    max-height: 65px;
+    margin-bottom: 2rem;
+}
+
+.container .containCard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .detailMission {
+    display: flex;
+    justify-content: center;
+}

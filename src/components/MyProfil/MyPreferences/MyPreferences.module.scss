@@ -1,0 +1,192 @@
+.container {
+    width: 95%;
+    display: flex;
+    margin: 20px 0 0 0;
+    background-color: #fff;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.container .containDetails {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 1rem 0;
+}
+
+.container .containDetails p {
+    margin: 0;
+}
+
+.container .containDetails img {
+    display: flex;
+}
+
+.container .containDetails .title {
+    color: #143D66;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.container .containDetails .barre {
+    height: 5px;
+    width: 25px;
+    border-radius: 5px;
+    background: #143d66;
+    margin-bottom: 10px;
+}
+
+.container .containDetails .divinput {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.container .containDetails .divinput label {
+    margin: 0;
+    color: #143D66;
+    font-weight: 600;
+}
+
+.container .containDetails .divinput input {
+    width: 30%;
+    border: none;
+    background-color: #fff;
+    color: #143D66;
+    text-align: center;
+}
+
+.container .containDetails .divinput button {
+    text-decoration: none;
+    background-color: #fff;
+    border: none;
+}
+
+.container .containDetails .divinput2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.container .containDetails .divinput2 label {
+    margin: 0;
+    color: #143D66;
+    font-weight: 600;
+}
+
+.container .containDetails .divinput2 input {
+    border: none;
+    background-color: #fff;
+    color: #143D66;
+    text-align: center;
+}
+
+.container .containDetails .divinput2 button {
+    text-decoration: none;
+    background-color: #fff;
+    border: none;
+    color: #143D66;
+    border: solid #143D66 1px;
+    border-radius: 4px;
+    width: 70px;
+}
+
+.container .containDetails .divinputTJM {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.container .containDetails .divinputTJM label {
+    margin: 0 1rem 0 0;
+    color: #143D66;
+    font-weight: 600
+}
+
+.container .containDetails .divinputTJM input {
+    width: 30%;
+    border: solid 1px #143D66;
+    margin-right: 10px;
+    background-color: #fff;
+    color: #143D66;
+    text-align: center;
+}
+
+.container .containDetails .divinputTJM button {
+    text-decoration: none;
+    background-color: #fff;
+    border: none;
+}
+
+
+.container .containDetails .divinputSecteur {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+
+.container .containDetails .divinputSecteur .label{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.container .containDetails .divinputSecteur label {
+    margin: 0;
+    color: #143D66;
+    font-weight: 600;
+}
+
+.container .containDetails .divinputSecteur p {
+    color: #143D66;
+    margin-bottom: 1rem;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+.container .containDetails .divinputSecteur .buttonImg {
+    text-decoration: none;
+    background-color: #fff;
+    border: none;
+}
+
+.container .containDetails .divinputSecteur .containeForm{
+    width: 100%;
+}
+
+.container .containDetails .containButton {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.container .containDetails .divinputSecteur .containeForm  .containButton .update {
+    border: none;
+    background-color: #00ffba;
+    outline: none;
+    text-decoration: none;
+    color: #143D66;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+.container .containDetails .divinputSecteur .containeForm  .containButton .back {
+    border: none;
+    background-color: #143D66;
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 1rem;
+}

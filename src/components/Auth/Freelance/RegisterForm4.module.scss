@@ -1,0 +1,228 @@
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4F0F8;
+}
+
+.section .container {
+    background-color: #fff;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    margin: 80px 0 20px 0;
+}
+
+.section .container .containAll {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.section .container .containAll .title {
+    color: #143d66;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.section .container .containAll .barre {
+    height: 4px;
+    width: 40px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #00ffba, #143d66);
+    margin-bottom: 1.5rem;
+}
+
+.section .container .containAll .subTitle {
+    color: #143d66;
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.section .container .containAll .inputExp {
+    height: 150px;
+    border-radius: 4px;
+    border: #143D66 solid .5px;
+    margin: 10px 0 10px 0;
+    padding: 12px 20px;
+}
+.section .container .containAll .secondTitle{
+    font-size: 19px;
+    font-weight: 600;
+    color: #143d66;
+    margin: 15px 0 15px 0;
+}
+
+.section .container .containAll .input {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.section .container .containAll .input label{
+    width: 15%;
+    color: #143d66;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+}
+.section .container .containAll .input input{
+    width: 85%;
+    padding: 12px 20px;
+    border: #143D66 solid 0.5px;
+    border-radius: 4px;
+}
+
+.section .container .containAll .check {
+    width: 100%;
+    color: #143d66;
+}
+
+
+.section .container .containAll .check input {
+    margin-right: 15px;
+}
+
+.section .container .containAll .date {
+    display: flex;
+    width: 100%;
+    margin: 15px 0 15px 0;
+}
+
+.section .container .containAll .date label {
+    width: 10%;
+    color: #143d66;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+}
+
+.section .container .containAll .date input {
+    width: 35%;
+    border: #143D66 solid 0.5px;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+.section .container .containAll .description {
+    display: flex;
+    flex-direction: column;
+    color: #143D66;
+}
+
+.section .container .containAll .description input {
+    height: 80px;
+    border-radius: 4px;
+    border: #143D66 solid .5px;
+    margin: 10px 0 10px 0;
+    padding: 12px 20px;
+}
+
+.section .container .containAll .buttonExperience {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 15px 0;
+}
+
+.section .container .containAll .buttonExperience .btnSupp {
+    text-decoration: none;
+    border: 0;
+    background-color: #fff;
+    color: #143D66;
+}
+
+.section .container .containAll .buttonExperience .btnExp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section .container .containAll .buttonExperience .btnExp  .btnStop  {
+    width: 110px;
+    text-decoration: none;
+    color: #143D66;
+    background-color: #fff;
+    border: solid #143D66 .5px;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+.section .container .containAll .buttonExperience .btnValid {
+    width: 110px;
+    color: #fff;
+    background-color: #143D66;
+    text-decoration: none;
+    border: 0;
+    border-radius: 4px;
+}
+
+.section .container .containAll .containBtn {
+    display: flex;
+    margin: 15px 0 20px 0;
+}
+
+.section .container .containAll .containBtn .btnValidate {
+    width: 150px;
+    text-decoration: none;
+    background-color: #00ffba;
+    color: #143D66;
+    height: 35px;
+    border: 0;
+    margin-right: 15px;
+    border-radius: 4px;
+}
+
+.section .container .containAll .containBtn .btnLater {
+    background-color: #fff;
+    width: 100px;
+    border: solid #00ffba .5px;
+    color: #00ffba;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.errors {
+    color: red;
+}
+
+@media(max-width:900px) {
+    .section .container {
+        width: 80%;
+    }
+    .section .container .containAll .input  {
+        flex-direction: column;
+        height: auto;
+    }
+    .section .container .containAll .date  {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 500px) {
+    .buttonExperience {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section .container .containAll .buttonExperience .btnSupp{
+        margin-bottom: 15px;
+    }
+    .section .container .containAll .buttonExperience .btnExp {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section .container .containAll .buttonExperience .btnExp  .btnStop {
+        margin: 0 0 15px 0;
+    }
+
+}
+
+@media(max-width: 410px) {
+    .section .container {
+        width: 90%;
+    }
+}

@@ -1,0 +1,432 @@
+.all {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: #04c38f;
+    padding: 4px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.container .containAll {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .containAll .details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.container .containAll .details .img {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.container .containAll .details .img img {
+    height: 100%;
+}
+
+.container .containAll .details .detailConsultant {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.container .containAll .details .detailConsultant .button {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+    color: #143d66;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.container .containAll .details .detailConsultant .button span {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.container .containAll .details .detailConsultant .spaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .containAll .details .detailConsultant .spaceBetween h6 {
+    color: #143d66;
+    font-weight: 600;
+}
+
+.container .containAll .details .detailConsultant .spaceBetween p {
+    color: #143d66;
+    margin: 0;
+}
+
+.container .containAll .details .containButtons {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .containAll .details .containButtons .button1 {
+    text-decoration: none;
+    outline: none;
+    background-color: #fff;
+    height: 30px;
+    width: 80px;
+    color: #143d66;
+    border: #143d66 solid 1px;
+    border-radius: 4px;
+    margin-right: 1rem;
+}
+
+.container .containAll .details .containButtons .button2 {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-color: #23E3A6;
+    height: 30px;
+    width: 90px;
+    color: #143D66;
+    border-radius: 4px;
+}
+
+.container .containAll .showDetail {
+    width: 100%;
+    background-color: #04c38f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .containAll .showDetail button {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    background-color: #04c38f;
+    color: #fff;
+}
+
+.container .containAll .detailMission {
+    margin: 2rem 0 1rem 1rem;
+    width: 90%;
+}
+
+.container .containAll .detailMission h6 {
+    color: #143D66;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.container .containAll .detailMission p {
+    color: #143D66;
+
+}
+
+.hidden {
+    display: none;
+}
+
+
+// CARD DECLINÉ
+
+.containerGray {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: #D3D3D3;
+    padding: 4px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.containerGray .containAll {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containerGray .containAll .details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.containerGray .containAll .details .img {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.containerGray .containAll .details .img img {
+    height: 100%;
+}
+
+.containerGray .containAll .details .detailConsultant {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.containerGray .containAll .details .detailConsultant .button {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+    color: #143d66;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.containerGray .containAll .details .detailConsultant .button span {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.containerGray .containAll .details .detailConsultant .spaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerGray .containAll .details .detailConsultant .spaceBetween h6 {
+    color: #143d66;
+    font-weight: 600;
+}
+
+.containerGray .containAll .details .detailConsultant .spaceBetween p {
+    color: #143d66;
+    margin: 0;
+}
+
+.containerGray .containAll .details .containButtons {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerGray .containAll .details .containButtons p{
+    margin: 0 0 0 1rem;
+    color: #143d66;
+}
+
+.containerGray .containAll .details .containButtons .button1 {
+    text-decoration: none;
+    outline: none;
+    background-color: #fff;
+    height: 30px;
+    width: 80px;
+    color: #143d66;
+    border: #143d66 solid 1px;
+    border-radius: 4px;
+    margin-right: 1rem;
+}
+
+.containerGray .containAll .details .containButtons .button2 {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    border: #143d66 solid 1px;
+    height: 30px;
+    width: 90px;
+    color: #143D66;
+    border-radius: 4px;
+}
+
+.containerGray .containAll .showDetail {
+    width: 100%;
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerGray .containAll .showDetail button {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    background-color: #D3D3D3;
+    color: #fff;
+}
+
+.containerGray .containAll .detailMission {
+    margin: 2rem 0 1rem 1rem;
+    width: 90%;
+}
+
+.containerGray .containAll .detailMission h6 {
+    color: #143D66;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.containerGray .containAll .detailMission p {
+    color: #143D66;
+
+}
+
+
+// CARD SHORTLISTÉ
+
+
+.containerBlue {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: #143D66;
+    padding: 4px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.containerBlue .containAll {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containerBlue .containAll .details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.containerBlue .containAll .details .img {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.containerBlue .containAll .details .img img {
+    height: 100%;
+}
+
+.containerBlue .containAll .details .detailConsultant {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.containerBlue .containAll .details .detailConsultant .button {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    text-align: left;
+    color: #143d66;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.containerBlue .containAll .details .detailConsultant .button span {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.containerBlue .containAll .details .detailConsultant .spaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerBlue .containAll .details .detailConsultant .spaceBetween h6 {
+    color: #143d66;
+    font-weight: 600;
+}
+
+.containerBlue .containAll .details .detailConsultant .spaceBetween p {
+    color: #143d66;
+    margin: 0;
+}
+
+.containerBlue .containAll .details .barreHori {
+    height: 90%;
+    width: 3px;
+    background-color: #143D66   ;
+}
+
+.containerBlue .containAll .details .containButtons {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerBlue .containAll .details .containButtons h6 {
+    color: #143D66;
+}
+
+.containerBlue .containAll .details .containButtons .button1 {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-color: #23E3A6;
+    height: 30px;
+    width: 160px;
+    color: #143d66;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.containerBlue .containAll .details .containButtons .button2 {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    height: 30px;
+    width: 160px;
+    border: #143D66 solid 1px;
+    color: #143D66;
+    border-radius: 4px;
+}
+
+.containerBlue .containAll .showDetail {
+    width: 100%;
+    background-color: #143D66;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerBlue .containAll .showDetail button {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    background-color: #143D66;
+    color: #fff;
+}
+
+.containerBlue .containAll .detailMission {
+    margin: 2rem 0 1rem 1rem;
+    width: 90%;
+}
+
+.containerBlue .containAll .detailMission h6 {
+    color: #143D66;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.containerBlue .containAll .detailMission p {
+    color: #143D66;
+
+}

@@ -1,0 +1,272 @@
+.section {
+    width: 100%;
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    background-color: #143d66;
+    background-size: cover;
+}
+
+.section .container {
+    width: 50%;
+    height: 95%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    padding: 20px 0 20px 0;
+    margin: 30px 0 20px 0;
+}
+
+.section .container .title {
+    color: #143d66;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.section .container .barre {
+    height: 4px;
+    width: 40px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #00ffba, #143d66);
+    margin-bottom: 10px;
+}
+
+.section .container .para {
+    color: #143d66;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.section .container .para span {
+    font-weight: 600;
+}
+
+.section .container .linkedin {
+    border: none;
+    text-decoration: none;
+    background-color: #1662ab;
+    color: #fff;
+    width: 40%;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.section .container .containRegisterButton {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 70%;
+    justify-content: space-around;
+}
+
+.section .container .containRegisterButton .registerClient {
+    width: 40%;
+    height: 35px;
+    background-color: #00ffba;
+    color: #143d66;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section .container .containRegisterButton .registerFreelance {
+    width: 40%;
+    height: 35px;
+    background-color: #143d66;
+    color: #00ffba;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section .container .button {
+    outline: none;
+    color: #143d66;
+    border: none;
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+
+.section .container .linkedin img {
+    max-height: 15px;
+}
+
+.section .container .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+
+.section .container .formgroup {
+    margin-bottom: unset !important; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.section .container  .FormFeedback {
+    width: 70%;
+    margin-top: 6px;
+}
+
+.section .container .input {
+    width: 70%;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: #143d66 solid 0.5px;
+    padding: 12px 20px;
+}
+
+.section .container .passConstraint {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.section .container .passConstraint p {
+    font-size: 11px;
+}
+
+.section .container .paraEnd {
+    width: 70%;
+    font-size: 9px;
+}
+
+.section .container .paraEnd span {
+    font-weight: 700;
+}
+
+.section .container .paraEnd span:hover {
+    cursor: pointer;
+}
+
+.section .container .send {
+    width: 70%;
+    border: none;
+    border-radius: 4px;
+    color: #143d66;
+    background-color: #00ffba;
+    height: 45px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.errors {
+    color: red;
+    width: 70%;
+}
+
+.section .vh {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100000;
+    overflow-y: hidden;
+}
+.section .vh .Block {
+    width: 90%;
+    height: 90%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.section .vh .Block .containTitle {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0 1rem 0;
+    color: #143d66;
+}
+
+.section .vh .Block .containTitle h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.section .vh .Block .containTitle img:hover {
+    cursor: pointer;
+}
+
+.section .vh .Block .containPata {
+    overflow: scroll;
+    width: 80%;
+    height: 75%;
+    color: #143d66;
+    border: #143d66 solid 3px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.section .vh .Block .containPata div {
+    padding: 1rem 3rem 1rem 1rem;
+}
+
+.section .vh .Block .containPata h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+@media (min-width: 1425px) {
+    .section .container {
+        width: 40%;
+    }
+}
+
+@media (max-width: 1025px) {
+    .section .container .linkedin {
+        width: 70%;
+    }
+}
+
+@media (max-width: 750px) {
+    .section .container {
+        width: 90%;
+        height: 90%;
+    }
+
+    .section .container .title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 300px) {
+    .section .container {
+        width: 100%;
+        
+    }
+    .section .container .passConstraint {
+        flex-direction: column;
+        align-items: center;
+    }
+}

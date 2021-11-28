@@ -1,0 +1,40 @@
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.section .container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 75px 0 20px 0;
+}
+
+.section .container h1 {
+    text-align: center;
+    color: #143D66;
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+.section .container .containButtons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.section .container .quit {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-color: red;
+    height: 35px;
+    border-radius: 5px;
+    width: 60%;
+    color: #fff;
+}
+

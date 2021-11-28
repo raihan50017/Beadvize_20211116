@@ -1,0 +1,384 @@
+.section {
+    display: flex;
+    justify-content: center;
+    background-color: #e4f0f8;
+}
+
+.section .container {
+    background-color: #fff;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    margin: 20px 0 20px 0;
+}
+
+.section .container .containAll {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.section .container .containAll .title {
+    color: #143d66;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.section .container .containAll .barre {
+    height: 4px;
+    width: 40px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #00ffba, #143d66);
+    margin-bottom: 1.5rem;
+}
+
+.section .container .containAll .containCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #143d66;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.section .container .containAll .containCard .withCard {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.section .container .containAll .containCard .card {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section .container .containAll .containCard .card h3 {
+    font-size: 20px;
+}
+
+.section .container .containAll .containCard .card p {
+    font-size: 12px;
+}
+.section .container .containAll .containCard .card img {
+    background-color: #fff;
+    border-radius: 10px;
+    fill: #fff;
+}
+
+.section .container .containAll .containCard .containBarreHorison {
+    display: flex;
+    align-items: center;
+}
+
+.section
+    .container
+    .containAll
+    .containCard
+    .containBarreHorison
+    .barreHorizon {
+    background-color: #fff;
+    height: 5rem;
+    width: 2px;
+}
+
+.section .container .containAll .inputLocalisation {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    height: 40px;
+}
+.section .container .containAll .inputLocalisation label {
+    width: 30%;
+    background-color: #143d66;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px 0 0 4px;
+    font-size: 15px;
+}
+
+.section .container .containAll  .geosuggest {
+    width: 70%;
+}
+
+
+.section .container .containAll .input {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    height: 40px;
+}
+.section .container .containAll .input label {
+    width: 30%;
+    background-color: #143d66;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px 0 0 4px;
+    font-size: 15px;
+}
+
+.section .container .containAll .input input {
+    width: 70%;
+    padding: 12px 20px;
+    border: #143d66 solid 0.5px;
+    border-radius: 0 4px 4px 0;
+}
+
+.section .container .containAll .inputExp {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.section .container .containAll .inputExp label {
+    width: 30%;
+    background-color: #143d66;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px 0 0 4px;
+    font-size: 15px;
+    height: 100%;
+}
+
+.section .container .containAll .inputExp div {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 20px;
+    border: #143d66 solid 0.5px;
+    border-radius: 0 4px 4px 0;
+}
+
+.section .container .containAll .inputExp div .option {
+    border: #143d66 solid 0.5px;
+    border-radius: 4px;
+    color: #143d66;
+    font-size: 15px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px 0 5px;
+    background-color: #fff;
+}
+
+.section .container .containAll .inputExp div .optionBlue {
+    border: #143d66 solid 0.5px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 15px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px 0 5px;
+    background-color: #143d66;
+}
+
+.section .container .containAll .inputExp div .option:hover {
+    cursor: pointer;
+}
+
+.section .container .containAll .inputSkills {
+    display: flex;
+    flex-direction: column;
+    background-color: #143d66;
+    color: #fff;
+    height: 130px;
+    padding: 4px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.section .container .containAll .inputSkills input {
+    height: 60px;
+    padding: 12px 20px;
+}
+
+.section .container .containAll .inputTJM {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.section .container .containAll .inputTJM label {
+    background-color: #143d66;
+    width:30%;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 4px 0 0 4px;
+}
+
+.section .container .containAll .inputTJM div {
+    background-color: #143d66;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    border-radius: 0 4px 4px 0;
+}
+
+.section .container .containAll .inputTJM input {
+    width: 65%;
+    padding: 12px 20px;
+    border: #143d66 solid 0.5px;
+    text-align: right;
+}
+
+.section .container .containAll .inputTJM input::-webkit-outer-spin-button,
+.section .container .containAll .inputTJM input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.section .container .containAll .containButton {
+    margin-bottom: 20px;
+}
+
+.section .container .containAll .containButton .button1 {
+    width: 185px;
+    color: #143d66;
+    background-color: #fff;
+    text-decoration: none;
+    border: solid #143d66 1px;
+    border-radius: 4px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.section .container .containAll .containButton .button2 {
+    width: 150px;
+    color: #143d66;
+    background-color: #00ffba;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.errors {
+    color: red;
+}
+
+.select {
+    color: #143d66;
+}
+
+@media (max-width: 1180px) {
+    .section .container {
+        width: 60%;
+    }
+}
+
+@media (max-width: 985px) {
+    .section .container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 910px) {
+    .section .container .containAll .containCard {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section .container .containAll .containCard .barreHorizon {
+        height: 4px;
+        width: 60%;
+        margin-bottom: 15px;
+    }
+
+    .section .container .containAll .containCard .card {
+        width: 80%;
+    }
+
+    .section .container .containAll .containCard .card p {
+        text-align: center;
+    }
+    .section .container .containAll .input {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .section .container .containAll .input label {
+        width: 100%;
+        border-radius: 4px;
+    }
+    .section .container .containAll .input input {
+        width: 100%;
+        border-radius: 4px;
+    }
+    .section .container .containAll .inputExp {
+        flex-direction: column;
+        height: auto;
+    }
+    .section .container .containAll .inputExp label {
+        width: 100%;
+        border-radius: 4px;
+    }
+    .section .container .containAll .inputExp div {
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .section .container .containAll .inputTJM {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .section .container .containAll .inputTJM label {
+        width: 100%;
+        border-radius: 4px;
+    }
+    .section .container .containAll .inputTJM input {
+        width: 100%;
+        border-radius: 4px;
+    }
+    .section .container .containAll .inputTJM div {
+        width: 50%;
+        border-radius: 4px;
+    }
+    .section .container .containAll .inputSkills {
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .section .container {
+        width: 80%;
+    }
+    .section .container .containAll {
+        width: 90%;
+    }
+}
+
+@media (max-width: 510px) {
+    .section .container .containAll .containButton .button1 {
+        margin-bottom: 15px;
+    }
+}

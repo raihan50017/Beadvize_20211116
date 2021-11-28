@@ -1,0 +1,91 @@
+.container {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.container .containDetails {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.container .containDetails .title {
+    color: #143D66;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.container .containDetails .barre {
+    height: 5px;
+    width: 25px;
+    border-radius: 5px;
+    background: #143d66;
+    margin-bottom: 10px;
+}
+
+.container .containDetails  .facturation {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    color: #143d66;
+}
+
+.container .containDetails .facturation .forfait {
+display: flex;
+width: 50%;
+justify-content: center;
+border-bottom: solid #143d66 5px;
+}
+
+.container .containDetails .facturation .forfait:hover {
+cursor: pointer;
+}
+
+.container .containDetails  .facturation .regie {
+display: flex;
+width: 50%;
+justify-content: center;
+border-bottom: solid #143d66 1px;
+}
+
+.container .containDetails  .facturation .regie:hover {
+cursor: pointer;
+}
+
+
+.container .containDetails .answer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem 0 1rem 0;
+}
+
+.container .containDetails .answer .detailAnswer {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    margin: 1rem 0 1rem 0;
+}
+
+.container .containDetails .answer .detailAnswer img {
+    margin-right: 1rem;
+}
+
+.container .containDetails .answer .detailAnswer h6 {
+    color: #143d66;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.container .containDetails .answer .detailAnswer p {
+    margin: 0;
+    color: #143d66;
+    font-weight: 600;
+}

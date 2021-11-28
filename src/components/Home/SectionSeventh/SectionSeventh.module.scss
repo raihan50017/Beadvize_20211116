@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  background: #e4f0f8;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.section .container {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 0 50px 0;
+}
+
+.section .container .title h4 {
+  margin-bottom: 20px;
+  color: #134f76;
+  font-weight: 600;
+}
+
+.section .container .barre {
+  height: 4px;
+  width: 40px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #00ffba, #143d66);
+  margin-bottom: 40px;
+}
+
+.section .container .containArticle {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.section .container .containArticle .button {
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.section .container .containArticle .button .polygone1 {
+  position: absolute;
+  top: 30%;
+  left: 10px;
+  max-width: 60px;
+}
+
+.section .container .containArticle .button .polygone2 {
+  position: absolute;
+  top: 30%;
+  right: 10px;
+  max-width: 60px;
+}
+
+.section .container .containArticle .card {
+  width: 200px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.section .container .containArticle .card .img {
+  width: 200px;
+  height: 150px;
+}
+
+.section .container .containArticle .card p {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+  color: #143d66;
+}
+
+@media (max-width: 800px) {
+  .section .container .containArticle {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section .container .containArticle .button .polygone1 {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    max-width: 60px;
+  }
+
+  .section .container .containArticle .button .polygone2 {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    max-width: 60px;
+  }
+}
+
+@media (max-width: 520px) {
+
+}

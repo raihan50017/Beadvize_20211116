@@ -1,0 +1,140 @@
+// modified css
+
+.nwsection {
+  display: flex;
+  align-items: center;
+  background-color: #00f1b0;
+  height: 100%;
+  border-radius: 0px 3px 3px 0px;
+  box-sizing: border-box;
+  padding: 16px;
+}
+.nwinput {
+  padding: 5px 12px;
+}
+.label {
+  background-color: white;
+  vertical-align: center;
+}
+.inputbtn {
+  background-color: #143d66;
+  padding: 7px 18px;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
+.inputbtn:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+}
+// modified css
+
+.sectioneight {
+  background: #143d66;
+  width: 100%;
+  padding: 50px 0px;
+}
+
+.section .container {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px 0 50px 5px;
+}
+.text {
+  background-color: #fff;
+  border-radius: 4px 0 0 4px;
+  height: 100%;
+  padding: 15px;
+}
+.section .container .text .barre {
+  display: none;
+}
+
+.section .container .text h4 {
+  color: #143d66;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.section .container .text p {
+  color: #143d66;
+  font-size: 12px;
+}
+
+.section .container .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00ffba;
+  width: 50%;
+  height: 100px;
+  border-radius: 0 4px 4px 0;
+}
+
+.section .container .input label {
+  background-color: #ededed;
+  height: 30px;
+  margin: 0;
+  font-size: 13px;
+  padding: 5px;
+  color: #13436c;
+}
+
+.section .container .input input[type="email"] {
+  height: 30px;
+  border: none;
+  font-size: 13px;
+}
+
+.section .container .input a {
+  height: 30px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #143d66;
+  font-size: 13px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .section .container {
+    flex-direction: column;
+    max-height: 100%;
+  }
+
+  .section .container .text {
+    width: 90%;
+    height: 60%;
+    border-radius: 4px 4px 0 0;
+  }
+
+  .section .container .text .barre {
+    height: 4px;
+    width: 40px;
+    border-radius: 5px;
+    background: #143d66;
+  }
+
+  .section .container .text h4 {
+    font-size: 24px;
+    font-weight: 700;
+    max-width: 70%;
+    margin-bottom: 20px;
+  }
+
+  .section .container .text p {
+    max-width: 80%;
+    margin-top: 10px;
+  }
+
+  .section .container .input {
+    width: 90%;
+    border-radius: 0 0 4px 4px;
+  }
+}

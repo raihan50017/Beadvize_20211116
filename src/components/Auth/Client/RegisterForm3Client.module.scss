@@ -1,0 +1,158 @@
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4F0F8;
+}
+
+.section .container {
+    background-color: #fff;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    margin: 80px 0 20px 0;
+}
+
+.section .container .containAll {
+    width: 80%;
+}
+.section .container .containAll .title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #143D66;
+    margin-top: 20px;
+}
+
+.section .container .containAll .barre {
+    height: 4px;
+    width: 40px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #00ffba, #143d66);
+    margin-bottom: 1.5rem;
+}
+
+.section .container .containAll .subTitle {
+    font-size: 17px;
+    color: #143D66;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.section .container .containAll .input {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.section .container .containAll .input label{
+    width: 30%;
+    background-color: #143d66;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 4px 0 0 4px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.section .container .containAll .input input{
+    width: 70%;
+    padding: 12px 20px;
+    border: #143D66 solid 0.5px;
+    border-radius: 0 4px 4px 0;
+}
+
+.section .container .containAll .containButton {
+    display: flex;
+    margin: 15px 0 35px 0;
+    justify-content: center;
+}
+
+.section .container .containAll .containButton .button {
+    text-decoration: none;
+    border: #143D66 solid 1.5px;
+    background-color: #fff;
+    color: #143D66;
+    width: 130px;
+    border-radius: 4px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.section .container .containAll .containButton .buttonBlue {
+    text-decoration: none;
+    border: #143D66 solid 1.5px;
+    background-color: #143D66;
+    color: #fff;
+    width: 130px;
+    border-radius: 4px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.section .container .containAll .containButtonValidate {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section .container .containAll .containButtonValidate .buttonValidate {
+    margin-bottom: 20px;
+    background-color: #00ffba;
+    color: #143D66;
+    border: 0;
+    height: 35px;
+    padding: 0 30px 0 30px;
+    border-radius: 4px;
+}
+
+.errors {
+    color: red;
+}
+
+@media(max-width:1000px) {
+    .section .container {
+        width: 60%;
+    }
+}
+
+@media(max-width: 910px) {
+    .section .container .containAll .input {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .section .container .containAll .input label {
+        width: 100%;
+        border-radius: 4px;
+    }
+    .section .container .containAll .input input {
+        width: 100%;
+        border-radius: 4px;
+    } 
+}
+
+
+@media(max-width:700px) {
+    .section .container {
+        width: 80%;
+    }
+}
+
+@media(max-width:550px) {
+    .section .container {
+        width: 90%;
+    }
+}
+@media(max-width:320px) {
+    .section .container .containAll .containButton {
+        flex-direction: column;
+    }
+    .section .container .containAll .containButton .button {
+        margin: 0 0 15px 0;
+    }
+}

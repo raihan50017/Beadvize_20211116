@@ -1,0 +1,119 @@
+.container {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.container .containMissions {
+    width: 90%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .containMissions .title {
+    color: #143D66;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.container .containMissions .barre {
+    height: 4px;
+    width: 40px;
+    border-radius: 5px;
+    background: #143d66;
+    margin-bottom: 2em;
+}
+
+.container .containMissions .subTitle {
+    color: #143D66;
+    font-weight: 600;
+}
+
+.container .containMissions .missions {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.container .containMissions .missions .titleMission {
+    color: #143D66;
+    font-weight: 700;
+}
+
+.container .containMissions .missions .titleMission span {
+    color: #01E3A6;
+    font-weight: 600;
+}
+
+.container .containMissions .missions .detailMission{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-bottom: solid 1px #01E3A6;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+
+.container .containMissions .missions .detailMission p {
+    margin: 0;
+    color: #143D66;
+    width: 30%;
+    text-align: left;
+}
+
+.container .containMissions .missions .detailMission .buttonGreen {
+    color: #143D66;
+    background-color: #01E3A6;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    width: 160px;
+    height: 30px;
+}
+
+.container .containMissions .missions .detailMissionBlue{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-bottom: solid 1px #143D66;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.container .containMissions .missions .detailMissionBlue p {
+    margin: 0;
+    color: #143D66;
+    width: 30%;
+    text-align: left;
+}
+
+.container .containMissions .missions .detailMissionBlue .buttonBlue {
+    color: #fff;
+    background-color: #143D66;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    width: 160px;
+    height: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+@media(max-width: 970px) {
+    .container .containMissions .missions .detailMissionBlue,
+    .container .containMissions .missions .detailMission {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .section {
+    background:#143d66;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    position: relative;
+  }
+  
+  .section::before {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: #01e3a6;
+    -webkit-clip-path: polygon(100% 60%, 0 100%, 100% 100%);
+    clip-path: polygon(100% 60%, 0 100%, 100% 100%);
+  }
+
+  .section .container {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 60px 0 40px 5px;
+    flex-direction: column;
+  }
+  
+  .section .container .title {
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .section .container .barre {
+    height: 4px;
+    width: 40px;
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 40px;
+  }
+  
+  .section .container .ContainerComment {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+  }
+  
+  .section .container .ContainerComment .card {
+    color: #fff;
+    width: 50%;
+    position: relative;
+  }
+  
+  .section .container .ContainerComment .card .cardName {
+    font-size: 11px;
+  }
+  
+  .section .container .ContainerComment .card .imgRounded {
+    width: 60%;
+    border-radius: 50%;
+  }
+  
+  .section .container .ContainerComment .card .divDialogue {
+    position: absolute;
+    top: -38px;
+    right: 20px;
+    width: 130px;
+  }
+  
+  .section .container .ContainerComment .card .divDialogue .imgDialogue {
+    width: 100%;
+  }
+  
+  .section .container .ContainerComment .card .divDialogue .paraDialogue {
+    font-size: 10px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    right: 20px;
+    font-weight: 600;
+    font-size: 10px;
+  }
+  
+  .section .container .triangle {
+    position: absolute;
+    bottom: -10px;
+    height: 100px;
+    z-index: 1;
+  }
+
+
+  @media (max-width: 800px) {
+    .section {
+      padding: 0;
+    }
+
+    .section::before {
+        -webkit-clip-path: polygon(100% 70%, 0 100%, 100% 100%);
+        clip-path: polygon(100% 70%, 0 100%, 100% 100%);
+    }
+
+
+    .section .container .ContainerComment {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .section .container .ContainerComment .Center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .section .container .ContainerComment .card .cardName {
+      font-size: 16px;
+      font-weight: 600;
+      text-align: center;
+    }
+  
+    .section .container .ContainerComment .card .divDialogue {
+      position: absolute;
+      top: -38px;
+      right: -38px;
+      width: 150px;
+    }
+  
+    .section .container .triangle {
+      position: absolute;
+      z-index: -1;
+    }
+}

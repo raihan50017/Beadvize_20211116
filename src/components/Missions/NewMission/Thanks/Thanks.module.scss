@@ -1,0 +1,22 @@
+.container {
+    width: 80%;
+}
+
+.container .title {
+    color: #143D66;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 0 2rem 0;
+}
+
+.container button {
+    text-decoration: none;
+    outline: none;
+    border: #143D66 solid 1.5px;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 180px;
+    height: 40px;
+    color: #143D66;
+    font-weight: 600;
+}

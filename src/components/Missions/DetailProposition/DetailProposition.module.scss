@@ -1,0 +1,264 @@
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3D3D3;
+    border-radius: 10px;
+    padding: 0.6rem;
+}
+
+.container .containAll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.container .containAll .containForm {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.container .containAll .containForm .titleNotWon {
+    font-size: 30px;
+    font-weight: 600;
+    color: #D3D3D3;
+    margin-top: 2rem;
+}
+
+
+.container .containAll .containForm .title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #143D66;
+    margin-top: 2rem;
+}
+
+
+.container .containAll .containForm .barre {
+    height: 4px;
+    width: 40px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #00ffba, #143d66);
+    margin-bottom:2rem;
+}
+
+
+
+.container .containAll .containForm .inputdesc {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #143d66;
+    margin-bottom: 15px;
+}
+
+
+.container .containAll .containForm .inputdesc label {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+
+.container .containAll .containForm .inputdesc2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #143d66;
+    margin-bottom: 15px;
+}
+
+
+.container .containAll .containForm .inputdesc2 label {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.container .containAll .containForm .inputdesc textarea,
+.container .containAll .containForm .inputdesc2 textarea {
+    padding: 5px 20px;
+}
+
+.container .containAll .containForm .upload {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.container .containAll .containForm .upload h6,
+.container .containAll .containForm .upload label {
+    margin: 0;
+}
+
+.container .containAll .containForm .upload h6 {
+    margin-right: 1rem;
+    color: #143D66;
+    font-weight: 600;
+}
+
+.container .containAll .containForm .upload label  {
+    border: solid #143D66 1px;
+    color: #143D66;
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .containAll .containForm .upload label:hover {
+    cursor: pointer;
+}
+
+.container .containAll .containForm .upload input[type="file"] {
+    display: none;
+}
+
+.container .containAll .containForm .date {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.container .containAll .containForm .date button {
+    text-decoration: none;
+    outline: none;
+    border: solid #143D66 1px;
+    width: 160px;
+    background-color: #fff;
+    color: #143D66;
+    height: 30px;
+    margin-right: 2rem;
+}
+
+
+
+.container .containAll .containForm h6 {
+    color: #143D66;
+    font-weight: 600;
+}
+
+.container .containAll .containForm .facturation p {
+    color: #143D66;
+}
+
+.container .containAll .containForm .send {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+
+.container .containAll .containForm .send button {
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+.container .containAll .containForm .send .button1 {
+    background-color: #fff;
+    color: #143D66;
+    height: 30px;
+    width: 190px;
+    margin-right: 1rem;
+    border-radius: 4px;
+    border: #143D66 solid 1px;
+    font-weight: 600;
+}
+
+
+.container .containAll .containForm .send .button2 {
+    background-color: #fff;
+    color: #143D66;
+    height: 30px;
+    width: 100px;
+    margin-right: 1rem;
+    border-radius: 4px;
+    border: #143D66 solid 1px;
+    font-weight: 600;
+}
+
+
+.container .containAll .containForm .send .buttonForm2 {
+    background-color: #fff;
+    color: #143D66;
+    height: 30px;
+    width: 200px;
+    margin-right: 1rem;
+    border-radius: 4px;
+    border: #143D66 solid 1px;
+    font-weight: 600;
+}
+
+.container .containAll .containForm .TJM {
+    display: flex;
+}
+
+.container .containAll .containForm .TJM .detailTjm {
+    margin-right: 3em;
+}
+.container .containAll .containForm .TJM .detailTjm h6,
+.container .containAll .containForm .TJM .detailTjm p {
+    color: #143D66;
+}
+
+
+.container .containAll .containForm .TJM .detailTjm .fontWeight {
+    font-weight: 600;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+.container .containAll .containForm .containTab {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container .containAll .containForm .containTab .secondBarre {
+    height: 4px;
+    width: 100px;
+    background: linear-gradient(90deg, #00ffba, #143d66);
+    margin-bottom:2rem;
+}
+
+.container .containAll .containForm .containButton {
+    margin: 2rem 0 3rem 0;
+}
+
+.container .containAll .containForm .containButton .button {
+    text-decoration: none;
+    outline: none;
+    border: solid #143D66 1.5px;
+    background-color: #fff;
+    color: #143D66;
+    border-radius: 4px;
+    padding: 7px;
+    font-weight: 600;
+}
+
+
+.container .containAll .containForm .detailTotal {
+    margin:  2rem 0 2rem 0;
+}
+
+.container .containAll .containForm .detailTotal h6{
+    color: #04C38F;
+    font-weight: 600;
+}
+.container .containAll .containForm  .detailTotal p {
+    color: #143D66;
+    font-weight: 600;
+}

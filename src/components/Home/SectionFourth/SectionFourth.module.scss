@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    background: #E4F0F8;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section .container {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 60px 0 40px 0;
+    flex-direction: column;
+}
+
+.section .container .title {
+    margin-bottom: 20px;
+    color: #134F76;
+    font-weight: 600;
+}
+
+.section .container .barre {
+    height: 4px;
+    width: 40px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #00FFBA, #143D66);
+    margin-bottom: 40px;
+}
+
+.section .container .containerDiv {
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.section .container .containerDiv .text{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 4px 0 0 4px;
+}
+
+.section .container .containerDiv .text .textTitle{
+   color: #143D66;
+   font-weight: 600;
+   font-size: 20px;
+   margin-bottom: 20px;
+   align-items: center;
+}
+.section .container .containerDiv .text .textPara {
+    font-size: 10px;
+}
+
+.section .container .containerDiv .logo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #143D66;
+    height: 300px;
+    border-radius: 0 4px 4px 0;
+}
+.section .container .containerDiv .logo img {
+    width: 60%;
+    height: 60%;
+}
+
+.section .container .containerDivMd {
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.section .container .containerDivMd .textMd {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 0 4px 4px 0;
+    
+}
+
+.section .container .containerDivMd .textMd .textTitle{
+    color: #143D66;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+ }
+ .section .container .containerDivMd .textMd .textPara {
+     font-size: 10px;
+ }
+
+.section .container .containerDivMd .logoMd {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #143D66;
+    border-radius: 4px 0 0 4px;
+}
+
+.section .container .containerDivMd .logoMd img {
+    width: 60%;
+    height: 60%;
+}
+
+.imgTrait {
+    margin-right: 5px;
+    max-height: 12px;
+}
+
+@media(max-width: 800px) {
+    .section .container .containerDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: none;
+    }
+
+    .section .container .containerDivMd {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        box-shadow: none;
+    }
+
+    .section .container .containerDiv .text {
+        width: 90%;
+        border-radius: 4px 4px 0 0;
+    }
+
+    .section .container .containerDiv .logo {
+        width: 90%;
+        border-radius: 0 0 4px 4px;
+    }
+
+    .section .container .containerDivMd .textMd {
+        width: 90%;
+        border-radius: 4px 4px 0 0;
+    }
+
+    .section .container .containerDivMd .logoMd {
+        width: 90%;
+        border-radius: 0 0 4px 4px;
+    }
+
+}
+
+
+

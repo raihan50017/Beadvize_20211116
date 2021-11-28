@@ -1,0 +1,83 @@
+.containerBlue {
+    display: flex;
+    background-color: #143D66;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 1rem;
+    width: 90%;
+}
+
+.containerBlue .containCard {
+    width: 80%;
+    padding: 4px;
+    display: flex;
+}
+
+.containerBlue .containCard .detailsCard {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.containerBlue .containCard .detailsCard .width {
+    width: 90%;
+    padding: 1rem 0 1rem 0;
+}
+
+.containerBlue .containCard .detailsCard .width .title {
+    color: #143D66;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.containerBlue .containCard .detailsCard .width .detailsMission {
+    display: flex;
+    justify-content: space-between;
+}
+.containerBlue .containCard .detailsCard .width .detailsMission h6 {
+    margin: 0;
+    font-weight: 700;
+    color: #143D66;
+    font-size: 14px;
+}
+
+.containerBlue .containCard .detailsCard .width .detailsMission p {
+    margin: 0;
+    color: #143D66;
+    font-size: 12px;
+}
+
+.containerBlue .containCard .detailsCard .width .detailsMission .total {
+    color: #04C38F;
+}
+
+.containerBlue .containCard .detailsCard .width .detailsMission .button {
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-color: #143D66;
+    
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.containerBlue .status {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.containerBlue .status p {
+    color: #fff;
+    margin: 0;
+}
+
+.width{
+    width: 90%;
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Groupe_2240" data-name="Groupe 2240" transform="translate(-1370 -141)">
+    <g id="Groupe_2024" data-name="Groupe 2024">
+      <g id="Groupe_2023" data-name="Groupe 2023">
+        <g id="Groupe_2022" data-name="Groupe 2022">
+          <g id="Ellipse_60" data-name="Ellipse 60" transform="translate(1370 141)" fill="none" stroke="#143d66" stroke-width="1">
+            <circle cx="16" cy="16" r="16" stroke="none"/>
+            <circle cx="16" cy="16" r="15.5" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <path id="Icon_metro-cross" data-name="Icon metro-cross" d="M17.56,14.081h0L12.971,9.492,17.56,4.9h0a.474.474,0,0,0,0-.668L15.392,2.066a.474.474,0,0,0-.668,0h0L10.135,6.655,5.545,2.066h0a.474.474,0,0,0-.668,0L2.709,4.234a.474.474,0,0,0,0,.668h0L7.3,9.492,2.709,14.081h0a.474.474,0,0,0,0,.668l2.168,2.168a.474.474,0,0,0,.668,0h0l4.589-4.589,4.589,4.589h0a.474.474,0,0,0,.668,0L17.56,14.75a.474.474,0,0,0,0-.668Z" transform="translate(1376.115 147.368)" fill="#143d66"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+// html,
+body {
+  height: 100%;
+}
+
+.containProgress {
+  width: 100%;
+  background-color: #fff;
+  // position: absolute;
+  // top: 65px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+
+.containProgress .progress {
+  height: 15px;
+  width: 33%;
+  // border: #01E3A6 4px solid;
+  background-color: #b9ffec;
+  margin-bottom: 2px;
+}
+
+.containProgress .containProgressFull {
+  height: 15px;
+  width: 33%;
+  border: #01e3a6 4px solid;
+  background-color: #01e3a6;
+  margin-bottom: 2px;
+}
+
+
+.containProgress2 {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  margin-top: 65px;
+}
+
+
+.containProgress2 .progress {
+  height: 15px;
+  width: 33%;
+  background-color: #b9ffec;
+  margin-bottom: 2px;
+}
+
+
+.containProgress2 .containProgressFull {
+  height: 15px;
+  width: 33%;
+  border: #01e3a6 4px solid;
+  background-color: #01e3a6;
+  margin-bottom: 2px;
+margin-right: .5rem;
+}

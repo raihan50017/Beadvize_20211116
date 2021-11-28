@@ -1,0 +1,276 @@
+.containAll {
+  display: flex;
+  width: 100%;
+}
+
+.container {
+  width: 70%;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.container .form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .form .title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #143d66;
+  margin-top: 20px;
+}
+
+.container .form .barre {
+  height: 4px;
+  width: 40px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #00ffba, #143d66);
+  margin-bottom: 1.5rem;
+}
+
+.container .form .inputTitleGreen {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #143d66;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.container .form .inputTitleGreen input {
+  background-color: #eafff9;
+  border: #01e3a6 solid 1px;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.container .form .input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #143d66;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.container .form .input input {
+  border-radius: 5px;
+  border: solid #143d66 1px;
+  padding: 5px 20px;
+}
+
+.container .form .twoInput {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .form .twoInput .input {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  color: #143d66;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.container .form .inputDescription {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #143d66;
+  margin-bottom: 15px;
+}
+
+.container .form .inputDescription textarea {
+  height: 100px;
+  border: #143d66 solid 0.5px;
+  border-radius: 4px;
+  padding: 5px 20px;
+}
+
+.container .form .question {
+  color: #143d66;
+  font-weight: 600;
+  margin-top: 2em;
+}
+
+.container .form .facturation {
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+  color: #143d66;
+}
+
+.container .form .facturation .forfait {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  border-bottom: solid #143d66 5px;
+}
+
+.container .form .facturation .forfait:hover {
+  cursor: pointer;
+}
+
+.container .form .facturation .regie {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  border-bottom: solid #143d66 1px;
+}
+
+.container .form .facturation .regie:hover {
+  cursor: pointer;
+}
+
+.container .form .answer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  color: #143d66;
+}
+
+.container .form .answer p {
+  margin: 0;
+}
+
+.container .form .answer .yes {
+  text-decoration: none;
+  outline: none;
+  border: #143d66 solid 1px;
+  color: #143d66;
+  font-weight: 600;
+  width: 120px;
+  background-color: #fff;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.container .form .answer .notYet {
+  text-decoration: none;
+  outline: none;
+  border: #143d66 solid 1px;
+  color: #143d66;
+  font-weight: 600;
+  width: 160px;
+  background-color: #fff;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.container .form .checkbox {
+  display: flex;
+  margin-top: 1rem;
+  color: #143d66;
+}
+
+.container .form .checkbox input {
+  margin-right: 0.5rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  height: 20px;
+  width: 23px;
+  background: #cbd1d8;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+}
+
+.container .form .checkbox input:hover {
+  background: #9faab7;
+}
+
+.container .form .checkbox input:checked {
+  background: #00ffba;
+  text-align: center;
+}
+
+.container .form .checkbox input:checked::before {
+  height: 20px;
+  width: 20px;
+  content: "✔";
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.container .form .checkbox input:checked::after {
+  -webkit-animation: click-wave 0.65s;
+  -moz-animation: click-wave 0.65s;
+  animation: click-wave 0.65s;
+  background: #40e0d0;
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .form .checkbox label {
+  display: flex;
+  margin: 0;
+  align-self: flex-start;
+}
+
+.container .form .button {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background-color: #01e3a6;
+  color: #143d66;
+  width: 160px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.advantage {
+  width: 30%;
+  background-color: #04c38f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.advantage .containAdv {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.advantage .containAdv h1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.advantage .containAdv .barreWhite {
+    height: 4px;
+    width: 30px;
+    border-radius: 5px;
+    background: #fff;
+    margin: 1rem 0 1rem 0;
+}
+
+.advantage .containAdv p {
+    font-size: 13px;
+}
+
+ .buttonForfait {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  color: #143d66;
+  font-weight: 600;
+}

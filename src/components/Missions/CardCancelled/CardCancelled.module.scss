@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    background-color: #D3D3D3;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 1rem;
+    width: 90%;
+}
+
+.container .containCard {
+    width: 80%;
+    padding: 4px;
+    display: flex;
+}
+
+.container .containCard .detailsCard {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.container .containCard .detailsCard .width {
+    width: 90%;
+    padding: 1rem 0 1rem 0;
+}
+
+.container .containCard .detailsCard .width .title {
+    color: #143D66;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.container .containCard .detailsCard .width .detailsMission {
+    display: flex;
+    justify-content: space-between;
+}
+.container .containCard .detailsCard .width .detailsMission h6 {
+    margin: 0;
+    font-weight: 700;
+    color: #143D66;
+    font-size: 14px;
+}
+
+.container .containCard .detailsCard .width .detailsMission p {
+    margin: 0;
+    color: #143D66;
+    font-size: 12px;
+}
+
+.container .status {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.container .status p {
+    color: #fff;
+    margin: 0;
+}
+
+.width {
+    width: 90%;
+}

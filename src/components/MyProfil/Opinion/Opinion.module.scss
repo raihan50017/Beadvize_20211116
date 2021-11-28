@@ -1,0 +1,48 @@
+.container {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.container .containDetails {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 1rem 0;
+}
+
+.container .containDetails .title {
+    color: #143D66;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.container .containDetails .barre {
+    height: 5px;
+    width: 30px;
+    border-radius: 5px;
+    background: #143d66;
+    margin-bottom: 10px;
+}
+
+.container .containDetails .profil {
+    display: flex;
+    margin-bottom: 1rem;
+}
+.container .containDetails .profil img {
+    margin-right: 1rem;
+}
+
+.container .containDetails .profil p {
+    color: #143D66;
+    font-weight: 600;
+}
+
+.container .containDetails p {
+    color: #143D66;
+    font-size: 15px;
+}

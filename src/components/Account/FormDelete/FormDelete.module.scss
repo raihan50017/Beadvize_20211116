@@ -1,0 +1,103 @@
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px #143D66 solid;
+    border-radius: 4px;
+    margin: 1rem 0 1rem 0;
+}
+
+.container  .title {
+    color: #143D66;
+    font-size: 18px;
+    font-weight: 700;
+    width: 90%;
+    margin-top: 1rem;
+}
+
+.container .barre {
+    width: 90%;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.container .barre div {
+    width: 30px;
+    background-color: #143D66;
+    height: 5px;
+    border-radius: 4px;
+}
+
+.container .form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    color: #143D66;
+}
+
+
+.container .form .input {
+    width: 40%;
+    margin-left: 30px;
+    margin-bottom: 1rem;
+}
+
+.container .form .checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.container .form .checkbox input {
+    margin-right: 1rem;
+}
+
+.container .form .checkbox label {
+    margin: 0;
+}
+
+.container .form .checkbox .other{
+    margin-left: 1rem;
+}
+
+.container .form .checkbox1 {
+    display: flex;
+    align-items: center;
+}
+
+
+.container .form .checkbox1 .checkboxInput {
+    -webkit-appearance: none;
+}
+
+.container .form .checkbox1 input {
+    margin-right: 1rem;
+}
+
+.container .form .checkbox1 label {
+    margin: 0;
+}
+
+.container .form .containButton {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container .form .button {
+    height: 30px;
+    width: 100px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-color: #143D66;
+    color: #fff;
+    border-radius: 4px;
+    margin: 1rem 0 1rem 0;
+}
+
+.weight {
+    font-weight: 700;
+}

@@ -1,0 +1,150 @@
+.container {
+    width: 100%;
+    margin-top: 65px;
+    background: linear-gradient(#143d66, #000000);
+    display: flex;
+    justify-content: center;
+}
+
+.container .containForm {
+    width: 70%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 2rem 0 2rem 0;
+}
+
+.container .containForm .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .containForm .form .title {
+    text-align: center;
+    font-size: 30px;
+    color: #143d66;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+.container .containForm .form .subtitle {
+    text-align: center;
+    font-size: 20px;
+    color: #143d66;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.container .containForm .form .line {
+    height: 6px;
+    width: 50px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #00FFBA, #143D66);
+}
+
+.container .containForm  .button  {
+    background-color: #00ffba;
+    color: #143d66;
+    display: flex;
+    width: 220px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    height: 34px;
+    margin-right: 1rem;
+}
+
+
+.container .containForm .form .containBlock {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.container .containForm .form .containBlock .firstBlock {
+    width: 40%;
+}
+
+.container .containForm .form .containBlock .firstBlock label {
+    color: #143d66;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.container .containForm .form .containBlock .firstBlock input {
+    width: 100%;
+    border: #143d66 solid 1.5px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.container .containForm .form .containBlock .secondBlock {
+    width: 40%;
+}
+
+.container .containForm .form .containBlock .secondBlock label {
+    color: #143d66;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.container .containForm .form .containBlock .secondBlock input {
+    width: 100%;
+    border: #143d66 solid 1.5px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.container .containForm .form .message {
+    color: #143d66;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.container .containForm .form .inputMessage {
+    width: 80%;
+    border: #143d66 solid 1.5px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    outline: none;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 1100px) {
+
+    .container .containForm {
+        width: 90%;
+    }
+
+    .container .containForm .form .containBlock {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container .containForm .form .containBlock .firstBlock {
+        width: 80%;
+    }
+
+    .container .containForm .form .containBlock .secondBlock {
+        width: 80%;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .container .containForm .form .containBlock .firstBlock {
+        width: 100%;
+    }
+
+    .container .containForm .form .containBlock .secondBlock {
+        width: 100%;
+    }
+}

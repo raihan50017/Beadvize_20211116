@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section .container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 0 50px 5px;
+    flex-direction: column;
+}
+
+.section .container .barre {
+    height: 6px;
+    width: 50px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #00FFBA, #143D66);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section .container .title h4 {
+    color: #143D66;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+
+.img {
+    max-width: 100%;
+}
+
+.container .button {
+    width: 350px;
+    height: 45px;
+    background-color: #00FFBA;
+    border-radius: 4px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    font-size: 17px;
+    color: #143D66;
+  
+}
+
+.section .container .containMobile {
+    display: none;
+}
+
+@media(max-width: 800px) {
+    .img {
+        display: none;
+    } 
+    .section .container .barre {
+        height: 7px;
+        width: 50px;
+        border-radius: 5px;
+        background: linear-gradient(90deg, #00FFBA, #143D66);
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .section .container .barre2 {
+        height: 7px;
+        width: 50px;
+        border-radius: 5px;
+        background: linear-gradient(90deg, #00FFBA, #143D66);
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    .section .container .containMobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section .container .containMobile .consultant {
+        color: #04C38F;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .section .container .containMobile .titleMobile {
+        color: #04C38F;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .section .container .containMobile .titleMobile2 {
+        color: #143D66;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .section .container .containMobile .para {
+        color: #143D66;
+        text-align: center;
+        max-width: 90%;
+        margin-bottom: 50px;
+    }
+
+    .section .container .containMobile .paraClient {
+        color: #143D66;
+        text-align: center;
+        max-width: 50%;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,520 @@
+.container {
+    background-color: #fff;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.container .containAll {
+    width: 80%;
+}
+
+.container .containAll .title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #143d66;
+    margin-top: 20px;
+}
+
+.container .containAll .barre {
+    height: 4px;
+    width: 40px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #00ffba, #143d66);
+    margin-bottom: 1.5rem;
+}
+
+.container .containAll .inputTitre {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #143d66;
+    margin-bottom: 15px;
+}
+
+.container .containAll .inputTitre label {
+    font-weight: 600;
+}
+
+.container .containAll .inputTitre input {
+    border: #01e3a6 solid 0.5px;
+    border-radius: 4px;
+    padding: 12px 20px;
+    background-color: #eafff9;
+    height: 40px;
+}
+
+.container .containAll .inputDescription {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #143d66;
+    margin-bottom: 15px;
+}
+
+.container .containAll .inputDescription label {
+    font-weight: 600;
+}
+
+.container .containAll .inputDescription textarea {
+    height: 100px;
+    border: #143d66 solid 0.5px;
+    border-radius: 4px;
+    padding: 12px 20px;
+}
+
+.container .containAll .input {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.container .containAll .input label {
+    width: 30%;
+    background-color: #143d66;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px 0 0 4px;
+    font-size: 15px;
+}
+
+.container .containAll .input input {
+    width: 70%;
+    padding: 12px 20px;
+    border: #143d66 solid 0.5px;
+    border-radius: 0 4px 4px 0;
+}
+
+.container .containAll .inputLieu {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.container .containAll .inputLieu label {
+    width: 30%;
+    background-color: #143d66;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px 0 0 4px;
+    font-size: 15px;
+    margin: 0;
+}
+
+.container .containAll .inputLieu div {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: #143d66 solid 0.5px;
+    border-radius: 0 4px 4px 0;
+}
+
+.container .containAll .inputLieu div .option {
+    border: #143d66 solid 0.5px;
+    border-radius: 4px;
+    color: #143d66;
+    font-size: 15px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px 0 5px;
+    background-color: #fff;
+}
+
+.container .containAll .inputLieu div .option2 {
+    border: #143d66 solid 0.5px;
+    border-radius: 4px;
+    color: #143d66;
+    font-size: 15px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px 0 5px;
+    background-color: #fff;
+}
+
+.blue {
+    background-color: #143d66;
+    color: #fff;
+    border: #143d66 solid 0.5px;
+    border-radius: 4px;
+    font-size: 15px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px 0 5px;
+    margin-bottom: 5px;
+}
+
+.blue2 {
+    background-color: #143d66;
+    color: #fff;
+    border: #143d66 solid 0.5px;
+    border-radius: 4px;
+    font-size: 15px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px 0 5px;
+    margin-bottom: 5px;
+}
+
+.container .containAll .inputLieu div .option:hover {
+    cursor: pointer;
+}
+
+.container .containAll .inputStartProjet {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.container .containAll .inputStartProjet label {
+    width: 30%;
+    background-color: #143d66;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px 0 0 4px;
+    font-size: 15px;
+    margin: 0;
+}
+
+.container .containAll .inputStartProjet div {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 12px 20px;
+    border: #143d66 solid 0.5px;
+    border-radius: 0 4px 4px 0;
+}
+
+.container .containAll .inputStartProjet div .option {
+    border: #143d66 solid 0.5px;
+    border-radius: 4px;
+    color: #143d66;
+    font-size: 15px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px 0 5px;
+    margin-bottom: 5px;
+    background-color: #fff;
+}
+
+.container .containAll .inputStartProjet div .option:hover {
+    cursor: pointer;
+}
+
+.optionBlue {
+    border: #143d66 solid 0.5px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 15px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px 0 5px;
+    margin-bottom: 5px;
+    background-color: #143d66;
+}
+
+.container .containAll .button {
+    background-color: #00ffba;
+    border: 0;
+    width: 100px;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.errors {
+    color: red;
+}
+
+.container .containAll h6 {
+    color: #143d66;
+    font-weight: 600;
+    margin-top: 2em;
+}
+
+.container .containAll .facturation {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    color: #143d66;
+}
+
+.container .containAll .facturation .forfait {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    border-bottom: solid #143d66 5px;
+}
+
+.container .containAll .facturation .buttonForfait {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color: #143d66;
+    font-weight: 600;
+}
+
+.container .containAll.facturation .forfait:hover {
+    cursor: pointer;
+}
+
+.container .containAll .facturation .regie {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    border-bottom: solid #143d66 1px;
+}
+
+.container .containAll .facturation .regie:hover {
+    cursor: pointer;
+}
+
+.container .containAll .answer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0 2rem 0;
+    color: #143d66;
+}
+
+.container .containAll .answer p {
+    margin: 0;
+}
+
+.container .containAll .answer .yes {
+    text-decoration: none;
+    outline: none;
+    border: #143d66 solid 1px;
+    color: #143d66;
+    font-weight: 600;
+    width: 120px;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.container .containAll .answer .notYet {
+    text-decoration: none;
+    outline: none;
+    border: #143d66 solid 1px;
+    color: #143d66;
+    font-weight: 600;
+    width: 160px;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.container .containAll .answer select {
+    border: none;
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.container .message {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+.container .message h1 {
+    color: #143d66;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+.container .message .barre {
+    height: 4px;
+    width: 40px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #00ffba, #143d66);
+    margin-bottom: 1.5rem;
+}
+
+.container .message button {
+    outline: none;
+    border: #143d66 solid 1px;
+    color: #143d66;
+    background-color: #fff;
+    text-decoration: none;
+    width: 200px;
+    border-radius: 4px;
+}
+
+.container .containAll .containInput {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container .containAll .containInput .inputDescription {
+    width: 49%;
+}
+
+
+.container .containAll  .containButton {
+    display: flex;
+    margin: 1rem 0 .5rem 0;
+}
+ .container .containAll  .containButton .buttonNoActive {
+    width: 50%;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #143D66;
+    color: #143D66;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+}
+ .container .containAll  .containButton .buttonActive {
+    width: 50%;
+    background-color: #fff;
+    border: none;
+    border-bottom: 3px solid #143D66;
+    color: #143D66;
+    font-weight: 700;
+    text-decoration: none;
+    outline: none;    
+    text-align: center;
+}
+
+.container .containAll  .containButton .buttonNoActive:hover,
+.container .containAll  .containButton .buttonActive:hover {
+    cursor: pointer;
+}
+
+
+.container .containAll .inputBudget {
+    display: flex;
+    width: 100%;
+    color: #143D66;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+
+.container .containAll .inputBudget label {
+    font-weight: 600;
+    height: 100%;
+    margin: 0 1rem 0 0;
+}
+
+.container .containAll .inputBudget input {
+    width: 30%;
+    padding: 6px 10px;
+    border: #143D66 solid 0.5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+
+@media (max-width: 1180px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media (max-width: 985px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 910px) {
+    .container .containAll .input {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .container .containAll .input label {
+        width: 100%;
+        border-radius: 4px;
+    }
+    .container .containAll .input input {
+        width: 100%;
+        border-radius: 4px;
+    }
+    .container .containAll .inputLieu {
+        flex-direction: column;
+        height: auto;
+    }
+    .container .containAll .inputLieu label {
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .container .containAll .inputLieu div {
+        width: 100%;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        border-radius: 4px;
+    }
+
+    .container .containAll .inputLieu div option {
+        margin-bottom: 10px;
+    }
+
+    .container .containAll .inputStartProjet {
+        flex-direction: column;
+    }
+    .container .containAll .inputStartProjet label {
+        width: 100%;
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+
+    .container .containAll .inputStartProjet div {
+        width: 100%;
+        border-radius: 4px;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 550px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 300px) {
+    .container {
+        width: 100%;
+    }
+}

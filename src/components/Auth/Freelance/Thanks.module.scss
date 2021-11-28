@@ -1,0 +1,103 @@
+.section {
+    background-color: #143D66;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+}
+
+.section .container {
+    width: 40%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .container .containAll {
+    width: 90%;
+    margin-top: 20px;
+}
+
+.section .container .title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #143D66;
+}
+
+.section .container .barre {
+    height: 4px;
+    width: 40px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #00ffba, #143d66);
+    margin-bottom: 1.5rem;
+}
+
+.section .container .subTitle {
+    color: #04C38F;
+    font-size: 18px;
+}
+
+.section .container .para {
+    color: #143D66;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.section .container .para span {
+    font-weight: 600;
+}
+
+.section .container .btnFinal {
+    color: #143d66;
+    background-color: #04C38F;
+    margin-right: 10px;
+    height: 30px;
+    border: 0;
+    width: 250px;
+    border-radius: 4px;
+    padding: 0 10px 0 10px;
+}
+
+.section .container .btnFinal button,
+.section .container .btnLater button
+{
+    text-decoration: none;
+}
+
+
+.section .container .btnLater {
+    color: #04C38F;
+    border: #04C38F solid 0.5px;
+    background-color: #fff;
+    height: 30px;
+    padding: 0 20px 0 20px;
+    border-radius: 4px;
+}
+
+.containButton {
+    margin-bottom: 20px;
+}
+
+@media(max-width: 900px) {
+    .section .container {
+        width: 60%;
+    }
+}
+
+@media(max-width: 600px) {
+    .section .container {
+        width: 90%;
+    }
+
+    .section .container .containAll .containButton {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section .container .containAll .containButton .btnFinal {
+        margin: 0 0 15px 0;
+        width: 100%;
+    }
+}

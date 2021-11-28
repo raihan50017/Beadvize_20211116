@@ -1,0 +1,85 @@
+.container {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.container .containDetails {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 1rem 0;
+}
+
+.container .containDetails .title {
+    color: #143D66;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.container .containDetails .barre {
+    height: 5px;
+    width: 25px;
+    border-radius: 5px;
+    background: #143d66;
+    margin-bottom: 10px;
+}
+
+.container .containDetails .skills input {
+    width: 100%;
+   border: none;
+   display: flex;
+   flex-wrap: wrap;
+   color: #143D66;
+   margin-bottom: 0.5rem;
+}
+
+.container .containDetails .skills p {
+    color: #143D66;
+}
+
+.container .containDetails .pencil {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.container .containDetails .inputSkills {
+    color: #143D66;
+}
+
+
+.container .containDetails .containButton {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.container .containDetails .containButton .update {
+    border: none;
+    background-color: #00ffba;
+    outline: none;
+    text-decoration: none;
+    color: #143D66;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+.container .containDetails .containButton .back {
+    border: none;
+    background-color: #143D66;
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
